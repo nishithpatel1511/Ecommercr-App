@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/side_home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:title="Mobile"
+                android:id="@+id/side_mobile"
+                android:icon="@drawable/ic_baseline_phone_android_24"/>
+            <item
+                android:title="Laptop"
+                android:id="@+id/side_laptop"
+                android:icon="@drawable/ic_baseline_laptop_24"/>
+            <item
+                android:id="@+id/side_tablet"
+                android:title="Tablet"
+                android:icon="@drawable/ic_baseline_tablet_mac_24"/>
+                <item
+                    android:id="@+id/side_desktop"
+                    android:icon="@drawable/ic_baseline_desktop_mac_24"
+                    android:title="Desktop" />
+                <item
+                    android:id="@+id/side_music"
+                    android:icon="@drawable/ic_baseline_headset_24"
+                    android:title="Music" />
+
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/side_login"
+                android:title="Log In"
+                android:icon="@drawable/ic_baseline_login_24"/>
+            </group>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/side_cart"
+                    android:icon="@drawable/ic_baseline_shopping_cart_24"
+                    android:title="Cart" />
+            <item
+                android:title="Edit Profile"
+                android:id="@+id/side_editprofile"
+                android:icon="@drawable/ic_baseline_edit_24"/>
+
+            <item
+                android:id="@id/side_logout"
+                android:title="Log Out"
+                android:icon="@drawable/ic_baseline_power_settings_new_24"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/side_contactus"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="Contact Us"/>
+                <item
+                    android:id="@+id/side_addproduct"
+                    android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                    android:title="Add Product" />
+            </group>
+        </menu>
+    </item>
+    </group>
+</menu>
