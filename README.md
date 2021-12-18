@@ -10,3 +10,4 @@ On the Home Fragment user can find category wise product with their name and ima
 User can able to logout using logout option which is available in the side bar.
 
 Application Code is available in Master branch.
+![allInOne](https://user-images.githubusercontent.com/66438515/146629438-f3dba475-0b66-41b5-aca2-e54a7ef9320f.png)
